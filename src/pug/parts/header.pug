@@ -1,3 +1,19 @@
 // header
 header.header
-  h1 header
+  .header__nav.container
+    a.header__logo.logo(href="#")
+      +img('images/logo.png')(width="120")
+    nav.header__menu.menu
+      ul.menu__list
+        li.menu__item
+          a.menu__link(href="#") Главная
+        li.menu__item
+          a.menu__link(href="#") Фотоальбом
+        li.menu__item
+          a.menu__link(href="#") Где нас найти
+        li.menu__item
+          a.menu__link(href="#") Обратная связь
+      .menu__icon
+        span.menu__icon-item
+        span.menu__icon-item
+        span.menu__icon-item
